@@ -42,6 +42,7 @@ namespace WhereMyFoodie
             if (conn.State == ConnectionState.Open)
             {
                 MessageBox.Show("Welcome User");
+                ShowDGV();
             }
         }
 
