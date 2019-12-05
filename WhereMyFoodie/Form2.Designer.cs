@@ -46,7 +46,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(26, 24);
+            this.label1.Location = new System.Drawing.Point(20, 80);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(53, 17);
             this.label1.TabIndex = 0;
@@ -54,14 +54,14 @@
             // 
             // txtSearchUser
             // 
-            this.txtSearchUser.Location = new System.Drawing.Point(29, 44);
+            this.txtSearchUser.Location = new System.Drawing.Point(23, 100);
             this.txtSearchUser.Name = "txtSearchUser";
             this.txtSearchUser.Size = new System.Drawing.Size(199, 22);
             this.txtSearchUser.TabIndex = 1;
             // 
             // btnSearchUser
             // 
-            this.btnSearchUser.Location = new System.Drawing.Point(358, 45);
+            this.btnSearchUser.Location = new System.Drawing.Point(352, 101);
             this.btnSearchUser.Name = "btnSearchUser";
             this.btnSearchUser.Size = new System.Drawing.Size(75, 23);
             this.btnSearchUser.TabIndex = 3;
@@ -80,7 +80,7 @@
             this.Column3,
             this.Column4,
             this.Column5});
-            this.dgvFoodUser.Location = new System.Drawing.Point(29, 87);
+            this.dgvFoodUser.Location = new System.Drawing.Point(23, 143);
             this.dgvFoodUser.Name = "dgvFoodUser";
             this.dgvFoodUser.ReadOnly = true;
             this.dgvFoodUser.RowHeadersVisible = false;
@@ -137,7 +137,7 @@
             "name",
             "place",
             "source"});
-            this.comboType.Location = new System.Drawing.Point(234, 44);
+            this.comboType.Location = new System.Drawing.Point(228, 100);
             this.comboType.Name = "comboType";
             this.comboType.Size = new System.Drawing.Size(118, 24);
             this.comboType.TabIndex = 5;
@@ -145,7 +145,7 @@
             // 
             // btnGoToAdmin
             // 
-            this.btnGoToAdmin.Location = new System.Drawing.Point(583, 45);
+            this.btnGoToAdmin.Location = new System.Drawing.Point(577, 101);
             this.btnGoToAdmin.Name = "btnGoToAdmin";
             this.btnGoToAdmin.Size = new System.Drawing.Size(75, 23);
             this.btnGoToAdmin.TabIndex = 6;
@@ -155,7 +155,7 @@
             // 
             // btnShowAll
             // 
-            this.btnShowAll.Location = new System.Drawing.Point(502, 45);
+            this.btnShowAll.Location = new System.Drawing.Point(496, 101);
             this.btnShowAll.Name = "btnShowAll";
             this.btnShowAll.Size = new System.Drawing.Size(75, 23);
             this.btnShowAll.TabIndex = 7;
@@ -166,7 +166,7 @@
             // Form2
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.ClientSize = new System.Drawing.Size(691, 403);
+            this.ClientSize = new System.Drawing.Size(681, 455);
             this.Controls.Add(this.btnShowAll);
             this.Controls.Add(this.btnGoToAdmin);
             this.Controls.Add(this.comboType);

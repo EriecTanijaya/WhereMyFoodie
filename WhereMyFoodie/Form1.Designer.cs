@@ -57,7 +57,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(39, 82);
+            this.label1.Location = new System.Drawing.Point(9, 126);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(81, 17);
             this.label1.TabIndex = 0;
@@ -65,9 +65,9 @@
             // 
             // txtFoodName
             // 
-            this.txtFoodName.Location = new System.Drawing.Point(42, 102);
+            this.txtFoodName.Location = new System.Drawing.Point(12, 146);
             this.txtFoodName.Name = "txtFoodName";
-            this.txtFoodName.Size = new System.Drawing.Size(237, 22);
+            this.txtFoodName.Size = new System.Drawing.Size(288, 22);
             this.txtFoodName.TabIndex = 1;
             // 
             // dgvFoodAdmin
@@ -81,13 +81,13 @@
             this.Column3,
             this.Column4,
             this.Column5});
-            this.dgvFoodAdmin.Location = new System.Drawing.Point(338, 82);
+            this.dgvFoodAdmin.Location = new System.Drawing.Point(327, 125);
             this.dgvFoodAdmin.Name = "dgvFoodAdmin";
             this.dgvFoodAdmin.ReadOnly = true;
             this.dgvFoodAdmin.RowHeadersVisible = false;
             this.dgvFoodAdmin.RowHeadersWidth = 51;
             this.dgvFoodAdmin.RowTemplate.Height = 24;
-            this.dgvFoodAdmin.Size = new System.Drawing.Size(629, 285);
+            this.dgvFoodAdmin.Size = new System.Drawing.Size(629, 301);
             this.dgvFoodAdmin.TabIndex = 2;
             this.dgvFoodAdmin.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DGV_CellClick);
             // 
@@ -133,9 +133,9 @@
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(42, 344);
+            this.btnAdd.Location = new System.Drawing.Point(12, 388);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(75, 23);
+            this.btnAdd.Size = new System.Drawing.Size(60, 38);
             this.btnAdd.TabIndex = 3;
             this.btnAdd.Text = "add";
             this.btnAdd.UseVisualStyleBackColor = true;
@@ -144,7 +144,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(39, 143);
+            this.label2.Location = new System.Drawing.Point(9, 187);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(89, 17);
             this.label2.TabIndex = 0;
@@ -152,15 +152,15 @@
             // 
             // txtFoodSource
             // 
-            this.txtFoodSource.Location = new System.Drawing.Point(42, 163);
+            this.txtFoodSource.Location = new System.Drawing.Point(12, 207);
             this.txtFoodSource.Name = "txtFoodSource";
-            this.txtFoodSource.Size = new System.Drawing.Size(237, 22);
+            this.txtFoodSource.Size = new System.Drawing.Size(288, 22);
             this.txtFoodSource.TabIndex = 1;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(39, 205);
+            this.label3.Location = new System.Drawing.Point(9, 249);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(79, 17);
             this.label3.TabIndex = 0;
@@ -168,15 +168,15 @@
             // 
             // txtFoodPlace
             // 
-            this.txtFoodPlace.Location = new System.Drawing.Point(42, 225);
+            this.txtFoodPlace.Location = new System.Drawing.Point(12, 269);
             this.txtFoodPlace.Name = "txtFoodPlace";
-            this.txtFoodPlace.Size = new System.Drawing.Size(237, 22);
+            this.txtFoodPlace.Size = new System.Drawing.Size(288, 22);
             this.txtFoodPlace.TabIndex = 1;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(39, 265);
+            this.label4.Location = new System.Drawing.Point(9, 309);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(115, 17);
             this.label4.TabIndex = 0;
@@ -184,17 +184,17 @@
             // 
             // txtFoodDescription
             // 
-            this.txtFoodDescription.Location = new System.Drawing.Point(42, 285);
+            this.txtFoodDescription.Location = new System.Drawing.Point(12, 329);
             this.txtFoodDescription.Multiline = true;
             this.txtFoodDescription.Name = "txtFoodDescription";
-            this.txtFoodDescription.Size = new System.Drawing.Size(237, 53);
+            this.txtFoodDescription.Size = new System.Drawing.Size(288, 53);
             this.txtFoodDescription.TabIndex = 1;
             // 
             // btnUpdate
             // 
-            this.btnUpdate.Location = new System.Drawing.Point(123, 344);
+            this.btnUpdate.Location = new System.Drawing.Point(126, 388);
             this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(75, 23);
+            this.btnUpdate.Size = new System.Drawing.Size(60, 38);
             this.btnUpdate.TabIndex = 3;
             this.btnUpdate.Text = "update";
             this.btnUpdate.UseVisualStyleBackColor = true;
@@ -202,9 +202,9 @@
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(204, 344);
+            this.btnDelete.Location = new System.Drawing.Point(240, 388);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(75, 23);
+            this.btnDelete.Size = new System.Drawing.Size(60, 38);
             this.btnDelete.TabIndex = 3;
             this.btnDelete.Text = "delete";
             this.btnDelete.UseVisualStyleBackColor = true;
@@ -212,14 +212,14 @@
             // 
             // txtSearch
             // 
-            this.txtSearch.Location = new System.Drawing.Point(338, 47);
+            this.txtSearch.Location = new System.Drawing.Point(327, 90);
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.Size = new System.Drawing.Size(195, 22);
             this.txtSearch.TabIndex = 1;
             // 
             // btnSearch
             // 
-            this.btnSearch.Location = new System.Drawing.Point(663, 48);
+            this.btnSearch.Location = new System.Drawing.Point(652, 91);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(75, 23);
             this.btnSearch.TabIndex = 3;
@@ -230,7 +230,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(39, 27);
+            this.label5.Location = new System.Drawing.Point(9, 71);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(57, 17);
             this.label5.TabIndex = 0;
@@ -238,9 +238,9 @@
             // 
             // txtFoodId
             // 
-            this.txtFoodId.Location = new System.Drawing.Point(42, 47);
+            this.txtFoodId.Location = new System.Drawing.Point(12, 91);
             this.txtFoodId.Name = "txtFoodId";
-            this.txtFoodId.Size = new System.Drawing.Size(237, 22);
+            this.txtFoodId.Size = new System.Drawing.Size(288, 22);
             this.txtFoodId.TabIndex = 1;
             // 
             // comboTypeAdmin
@@ -251,7 +251,7 @@
             "name",
             "place",
             "source"});
-            this.comboTypeAdmin.Location = new System.Drawing.Point(539, 47);
+            this.comboTypeAdmin.Location = new System.Drawing.Point(528, 90);
             this.comboTypeAdmin.Name = "comboTypeAdmin";
             this.comboTypeAdmin.Size = new System.Drawing.Size(118, 24);
             this.comboTypeAdmin.TabIndex = 6;
@@ -259,7 +259,7 @@
             // 
             // btnShowAll
             // 
-            this.btnShowAll.Location = new System.Drawing.Point(892, 48);
+            this.btnShowAll.Location = new System.Drawing.Point(881, 91);
             this.btnShowAll.Name = "btnShowAll";
             this.btnShowAll.Size = new System.Drawing.Size(75, 23);
             this.btnShowAll.TabIndex = 7;
@@ -271,7 +271,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1010, 400);
+            this.ClientSize = new System.Drawing.Size(995, 448);
             this.Controls.Add(this.btnShowAll);
             this.Controls.Add(this.comboTypeAdmin);
             this.Controls.Add(this.btnSearch);
