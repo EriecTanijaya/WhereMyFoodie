@@ -7,10 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MaterialSkin.Controls;
+using MaterialSkin.Animations;
 
 namespace WhereMyFoodie
 {
-    public partial class Form4 : Form
+    public partial class Form4 : MaterialForm
     {
         public Form4()
         {

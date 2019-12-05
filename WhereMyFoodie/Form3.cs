@@ -10,10 +10,12 @@ using System.Windows.Forms;
 using System.Diagnostics;
 using MySql.Data.MySqlClient;
 using MySql.Data.Types;
+using MaterialSkin.Controls;
+using MaterialSkin.Animations;
 
 namespace WhereMyFoodie
 {
-    public partial class Form3 : Form
+    public partial class Form3 : MaterialForm
     {
 
         #region Variables

@@ -10,10 +10,12 @@ using System.Windows.Forms;
 using System.Diagnostics;
 using MySql.Data.MySqlClient;
 using MySql.Data.Types;
+using MaterialSkin.Controls;
+using MaterialSkin.Animations;
 
 namespace WhereMyFoodie
 {
-    public partial class Form2 : Form
+    public partial class Form2 : MaterialForm
     {
         #region Variables
         string host = "127.0.0.1";
